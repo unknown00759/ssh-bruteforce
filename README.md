@@ -6,6 +6,11 @@ Welcome to the SSH Bruteforce Python Script, for security testing and educationa
 
 2.  Clone this repository to your local machine:
 
+```shell
+pip install pwntools
+pip install paramiko
+```
+
  ```bash
    git clone https://github.com/unknown00759/ssh-bruteforce.git
    cd ssh-bruteforce
