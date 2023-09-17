@@ -7,7 +7,7 @@ username = 'Cryptex' ### Edit this
 attempt = 0
 
 ### Put your customize password list path
-with open("/home/kali/py/password.txt", "r") as password_list:
+with open("/home/kali/password.txt", "r") as password_list:
 	for password in password_list:
 	  password= password.strip("\n")
 	  try:
